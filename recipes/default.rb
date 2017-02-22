@@ -15,6 +15,7 @@
 		source /etc/profile.d/rvm.sh
 		rvm install ruby-2.1.7
 		rvm --default use 2.1.7
-		rvm install --gems=rails,puma
+		gem install rails
+		gem install puma
 	  	EOH
 	end
