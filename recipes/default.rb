@@ -6,7 +6,7 @@
 
 
 
-	bash 'postgresql-95-ubuntu' do
+	bash 'terminus_rvm' do
 	  	user 'root'
 	  	cwd '/tmp'
 	  	code <<-EOH
